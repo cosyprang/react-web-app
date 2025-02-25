@@ -6,7 +6,7 @@ function Nav() {
   return (
     <header className='header fixed-top'>
       <div className="containter-fluid bg-secondary-subtle d-flex aligh-items-center justify-content-between">
-        <h1>Bootstrap Test</h1>
+        <h1>Bootstrap</h1>
       </div>
     </header>
   )
