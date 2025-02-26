@@ -1,7 +1,7 @@
 import React from 'react'
-import '../SiteContent/SiteContent.css'
+import '../Nav/Nav.css'
 
-function SiteContent() {
+function Nav() {
     return (
         <>
             <header className='header-section'>
@@ -29,4 +29,4 @@ function SiteContent() {
     )
 }
 
-export default SiteContent
+export default Nav

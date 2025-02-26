@@ -1,13 +1,12 @@
 import React from 'react'
-import Nav from '../components/Navbar/Nav'
-import Content_Home from '../components/Content_Home/Content_Home'
-// import Card from '../components/Card/Card'
+import Nav from '../components/Nav/Nav'
+import SiteMenu from '../components/SiteMenu/SiteMenu'
 
 function Home() {
     return (
         <>
+            {/* <SiteMenu /> */}
             <Nav />
-            {/* <Content_Home /> */}
         </>
     )
 }
