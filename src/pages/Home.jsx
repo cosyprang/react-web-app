@@ -1,12 +1,14 @@
 import React from 'react'
 import Nav from '../components/Nav/Nav'
-import SiteBar from '../components/SiteBar/SiteBar'
+// import SiteBar from '../components/SiteBar/SiteBar'
+import HomeContent from '../components/HomeContent/HomeContent'
 
 function Home() {
     return (
         <>
             <Nav />
-            <SiteBar />
+            {/* <SiteBar /> */}
+            <HomeContent />
         </>
     )
 }

@@ -7,7 +7,6 @@
 .header-section {
     width: 100%;
     z-index: 999;
-    /* border: 1px solid red; */
 
     .header-wrapper {
         display: flex;
@@ -29,11 +28,12 @@
         
         .social-menu-header{
             float: right;
-            padding-right: 2rem;
+            padding-right: 60px;
             a{
                 padding-left: 2rem;
                 text-decoration: none;
                 i {
+                    color: black;
                     font-size: 20px;
                 }
             }

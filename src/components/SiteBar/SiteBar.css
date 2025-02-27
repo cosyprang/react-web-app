@@ -11,6 +11,12 @@
     box-sizing: border-box;
 }
 
+.sidebar-section {
+    width: 350px;
+    height: 100vh;
+    position: relative;
+}
+
 .sidebar-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -86,7 +92,7 @@
                 padding: 1rem 2rem 1rem 2rem;
                 background-color: var(--btn-color);
                 text-decoration: none;
-                font-size: clamp(16px, 5vw, 25px);
+                font-size: clamp(16px, 5vw, 20px);
             }
         }
     }
