@@ -1,0 +1,103 @@
+#root {
+    --black-text: #000;
+    --gray-text: #aaaaaa;
+    --white-text: #fff;
+    --btn-color: #faf4e3;
+    --btn-hover: #e5dfcf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.home-hero-section {
+    width: 100vw;
+    height: 100vh;
+
+    .hs-container {
+        width: 1100px;
+        height: 600px;
+
+        .hs-content-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-left: 2rem;
+
+            h4 {
+                font-size: clamp(20px, 5vw, 28px);
+                font-family: "Open Sans", sans-serif;
+                font-weight: lighter;
+                font-style: italic;
+
+                a {
+                    text-decoration: none;
+                    color: var(--black-text);
+                }
+            }
+
+            .hs-col1-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .hs-img-1 {
+                    width: 350px;
+                    height: 600px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .hs-info-1 {
+                    padding: 2rem 0 0 0.5rem;
+                }
+            }
+
+            .hs-col2-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .hs-img-2 {
+                    width: 350px;
+                    height: 600px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .hs-info-2 {
+                    padding: 2rem 0 0 0.5rem;
+                }
+            }
+
+            .hs-col3-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .hs-img-3 {
+                    width: 350px;
+                    height: 600px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .hs-info-3 {
+                    padding: 2rem 0 0 0.5rem;
+                }
+            }
+        }
+
+    }
+}
