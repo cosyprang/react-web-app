@@ -1,7 +1,7 @@
 import React from 'react'
-import SiteBar from './SiteBar/SiteBar'
-import HeroContent from './HeroContent/HeroContent'
-import '../HomeContent/HomeContent.css'
+import SiteBar from '../Home/SiteBar/SiteBar'
+import HeroContent from '../Home/HeroContent/HeroContent'
+import '../Home/HomeContent.css'
 
 function HomeContent() {
     return (
