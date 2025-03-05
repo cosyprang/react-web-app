@@ -21,17 +21,20 @@
             cursor: pointer;
             opacity: 1;
             transition: all 0.4s;
+
             i {
                 font-size: 28px;
             }
         }
-        
-        .social-menu-header{
+
+        .social-menu-header {
             float: right;
             padding-right: 60px;
-            a{
+
+            a {
                 padding-left: 2rem;
                 text-decoration: none;
+
                 i {
                     color: black;
                     font-size: 20px;

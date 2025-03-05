@@ -9,9 +9,9 @@
     font-size: 1.5rem;
 }
 
-.main-site-warp.push-side .site-menu-warp {
+/* .main-site-warp.push-side .site-menu-warp {
     left: 0;
-}
+} */
 
 .site-menu-warp{
     position: fixed;
@@ -24,14 +24,18 @@
         flex-direction: column;
         align-items: center;
         padding-top: 250px;
-        /* border: 1px solid black; */
 
         .close-menu {
             font-size: 30px;
-            color: white;
             position: absolute;
             top: 30px;
             left: 50px;
+            color: white;
+            background: transparent;
+            border: none;
+        }
+        .close-menu:hover {
+            cursor: pointer;
         }
         
         .site-menu {
@@ -59,3 +63,6 @@
     }
 }
 
+.site-menu-warp.open {
+    transform: translateY(0);
+}

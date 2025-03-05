@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Nav/Nav.css'
+import SiteMenu from '../SiteMenu/SiteMenu'
 
 function Nav() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    }
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
         <>
             <header className='header-section'>
                 <div className="header-wrapper">
-                    <div className="nav-switch">
+                    <div className="nav-switch" onClick={toggleMenu}>
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <div className="social-menu-header">
@@ -25,6 +36,7 @@ function Nav() {
                     </div>
                 </div>
             </header>
+            {isMenuOpen && <SiteMenu closeMenu={closeMenu}/>}
         </>
     )
 }

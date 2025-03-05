@@ -1,13 +1,13 @@
 import React from 'react'
 import '../SiteMenu/SiteMenu.css'
 
-function SiteMenu() {
+function SiteMenu({ closeMenu }) {
     return (
         <>
             <div className="main-site-warp">
                 <div className="site-menu-warp">
                     <div className="site-menu-wrapper">
-                        <div className="close-menu">x</div>
+                        <button className="close-menu" onClick={closeMenu}>X</button>
                         {/* Main menu */}
                         <ul className="site-menu">
                             <li>
