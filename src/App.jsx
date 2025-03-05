@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Contact from './pages/Contact'
+import Home from './pages/Home'
 import Nav from './components/Nav/Nav'
 import SiteMenu from './components/SiteMenu/SiteMenu'
 
@@ -8,11 +9,11 @@ function App() {
 
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       {/* <About /> */}
       {/* <Portfolio /> */}
       {/* <Contact /> */}
-      <Nav />
+      {/* <Nav /> */}
       {/* <SiteMenu /> */}
     </>
   )

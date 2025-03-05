@@ -9,15 +9,12 @@
     font-size: 1.5rem;
 }
 
-/* .main-site-warp.push-side .site-menu-warp {
-    left: 0;
-} */
-
 .site-menu-warp{
     position: fixed;
     width: 600px;
     height: 100%;
     background-color: var(--bg-color);
+    z-index: 999;
 
     .site-menu-wrapper {
         display: flex;
@@ -64,5 +61,5 @@
 }
 
 .site-menu-warp.open {
-    transform: translateY(0);
+    transform: translateX(0);
 }

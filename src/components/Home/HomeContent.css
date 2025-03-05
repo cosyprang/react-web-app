@@ -6,8 +6,8 @@
 
 .home-content {
     width: 100vw;
-    height: 700px;
-    overflow: hidden;
+    height: 800px;
+    /* overflow: auto; */
     
     .home-content-wrapper {
         display: flex;

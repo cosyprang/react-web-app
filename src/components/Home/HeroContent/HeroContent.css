@@ -14,8 +14,9 @@
 
 .home-hero-section {
     width: 1100px;
-    height: 100vh;
+    height: 100%;
     display: flex;
+    /* overflow: auto; */
 
     .hs-container {
         width: 1100px;
@@ -28,19 +29,21 @@
             align-items: center;
             padding-left: 2rem;
 
-            h4 {
-                font-size: clamp(20px, 5vw, 28px);
-                font-family: "Open Sans", sans-serif;
-                font-weight: lighter;
+            a {
+                text-decoration: none;
+                color: var(--black-text);
+                font-size: clamp(20px, 4vw, 30px);
+                font-weight: 200;
                 font-style: italic;
+            }
 
-                a {
-                    text-decoration: none;
-                    color: var(--black-text);
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
+            a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                font-size: clamp(10px, 4vw, 16px);
+                /* color: #ccc; */
             }
 
             .hs-col1-wrapper {
@@ -59,6 +62,7 @@
 
                 .hs-info-1 {
                     padding: 2rem 0 0 0.5rem;
+
                 }
             }
 
