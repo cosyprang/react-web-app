@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.about-content {
+.port-content {
     width: 100%;
-    height: 800px;
-    .about-content-wrapper{
+    height: 100%;
+
+    .port-content-wrapper {
         display: flex;
     }
 }

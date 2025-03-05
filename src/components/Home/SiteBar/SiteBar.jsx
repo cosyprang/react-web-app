@@ -1,5 +1,5 @@
 import React from 'react'
-import './SiteBar.css'
+import '../SiteBar/SiteBar.css'
 
 function SiteBar() {
     return (
