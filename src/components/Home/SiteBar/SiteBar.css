@@ -14,7 +14,11 @@
     width: 500px;
     height: 800px;
     position: relative;
-    overflow: auto;
+    /* margin: auto; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .sidebar-container {
         display: grid;
@@ -22,7 +26,6 @@
         grid-template-rows: repeat(3, 250px);
 
         .sidebar-wrapper {
-            /* padding-left: 1rem; */
 
             .sidebar-title-col {
                 display: flex;
@@ -33,26 +36,26 @@
                 .sidebar-title-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 1rem 0 0 3rem;
+                    padding: 0.5rem 0 100px 3rem;
 
                     h1 {
                         font-family: "Open Sans", sans-serif;
-                        font-weight: 400;
-                        font-size: clamp(30px, 5vw, 40px);
                         letter-spacing: 8px;
+                        font-weight: 400;
                     }
 
                     a {
                         color: var(--black-text);
                         text-decoration: none;
+                        font-size: clamp(30px, 4vw, 50px);
                     }
 
                     p {
-                        /* padding-left: 0.2rem; */
+                        padding-top: 0.5rem;
                         letter-spacing: 3.5px;
                         color: var(--gray-text);
                         font-weight: lighter;
-                        font-size: clamp(10px, 4vw, 20px);
+                        font-size: clamp(16px, 3vw, 20px);
                     }
                 }
             }
@@ -68,10 +71,10 @@
                 .sidebar-info-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 30px 2rem 0 3rem;
+                    padding: 0 2rem 10px 3rem;
 
                     h2 {
-                        font-size: clamp(20px, 4vw, 30px);
+                        font-size: clamp(20px, 2.5vw, 25px);
                         padding-bottom: 2rem;
                         font-weight: lighter;
                     }
@@ -79,7 +82,7 @@
                     p {
                         font-family: "Open Sans", sans-serif;
                         font-weight: lighter;
-                        font-size: clamp(5px, 3vw, 14px);
+                        font-size: clamp(5px, 2vw, 18px);
                     }
                 }
             }
@@ -95,7 +98,7 @@
                 .sidebar-contact-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 50px 0 100px 3rem;
+                    padding: 50px 0 0 3rem;
 
                     .tel-contact {
                         padding-top: 1rem;
@@ -106,7 +109,7 @@
                         color: var(--lighter-text);
                         font-family: "Open Sans", sans-serif;
                         font-weight: lighter;
-                        font-size: clamp(16px, 3vw, 20px);
+                        font-size: clamp(20px, 1.5vw, 25px);
                     }
 
 
@@ -130,5 +133,59 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .sidebar-section {
+        width: 400;
+        height: 100%;
+        margin: auto 0;
+
+        .sidebar-container {
+            width: 400px;
+            height: 700px;
+    
+            .sidebar-title-col {
+                width: 400px;
+                height: 150px;
+            }
+            .sidebar-info-col {
+                width: 400px;
+                height: 300px;
+            }
+            .sidebar-contact-col {
+                width: 400px;
+                height: 50px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-section {
+        width: 300px;
+        height: 600px;
+        position: relative;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-section {
+        width: 200px;
+        height: 500px;
+        position: relative;
+        /* overflow: auto; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar-section {
+        width: 500px;
+        height: 800px;
+        position: relative;
+        /* overflow: auto; */
     }
 }
