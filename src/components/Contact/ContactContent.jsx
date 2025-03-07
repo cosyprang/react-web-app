@@ -35,7 +35,7 @@ const ContactContent = () => {
     };
 
     return (
-        <div>
+        <>
             <Nav />
             <section className="form-section-wrapper">
                 <form onSubmit={handleSubmit} className="form-container">
@@ -89,7 +89,7 @@ const ContactContent = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     );
 };
 

@@ -14,9 +14,7 @@
     width: 600px;
     height: 800px;
     position: relative;
-    /* overflow: auto; */
     overflow: hidden;
-    /* margin: auto; */
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -50,7 +48,7 @@
                     a {
                         color: var(--black-text);
                         text-decoration: none;
-                        font-size: clamp(30px, 4vw, 50px);
+                        font-size: clamp(30px, 3.5vw, 50px);
                     }
 
                     p {
@@ -139,12 +137,34 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .sidebar-section {
+        width: 700px;
+        height: 100vh;
+
+        .sidebar-container {
+            width: 100%;
+            height: 100%;
+            
+            .sidebar-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .sidebar-title-wrapper {
+                    margin-bottom: 1rem;
+                }
+                .sidebar-info-wrapper {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1366px) {
     .sidebar-section {
-        width: 800px;
+        width: 700px;
         height: 100vh;
-        /* margin: auto 0; */
-        margin: 0 auto;
 
         .sidebar-container {
             width: 100%;
@@ -153,37 +173,102 @@
             .sidebar-wrapper {
                 display: flex;
                 flex-direction: column;
-                padding-left: 2rem;
-            }
-    
-            .sidebar-title-col {
-                width: 400px;
-                height: 300px;
-            }
 
-            .sidebar-info-col {
-                width: 400px;
-                height: 300px;
+                .sidebar-title-col {
+                    height: 200px;
 
-            }
-            .sidebar-contact-col {
-                width: 400px;
-                height: 300px;
-                .sidebar-contact-wrapper {
-                    padding-top: 2rem;
+                    .sidebar-title-wrapper {
+                        margin-bottom: 2rem;
+                    }
+                }
+                .sidebar-info-col {
+                    height: 200px;
+
+                    .sidebar-info-wrapper {
+                        margin-bottom: 2rem;
+                    }
+                }
+                .sidebar-contact-col {
+                    height: 200px;
+
+                    .sidebar-contact-wrapper {
+                        margin-top: 1rem;
+                    }
                 }
             }
+    
         }
     }
     
 }
 
+@media screen and (max-width: 1280px) {
+    .sidebar-section {
+        width: 700px;
+        height: 100vh;
+
+        .sidebar-container {
+            width: 100%;
+            height: 100%;
+
+            .sidebar-wrapper {
+                display: flex;
+
+                .sidebar-title-col {
+                    height: 180px;
+                }
+                .sidebar-info-col {
+                    height: 180px;
+
+                    .sidebar-info-wrapper {
+                        margin-top: 1.5rem;
+                    }
+                }
+                .sidebar-contact-col {
+                    height: 180px;
+
+                    .sidebar-contact-wrapper {
+                        margin-top: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .sidebar-section {
-        width: 300px;
-        height: 600px;
-        position: relative;
+        width: 600px;
+        height: 700px;
         overflow: auto;
+        .sidebar-container {
+            width: 100%;
+            height: 100%;
+            .sidebar-wrapper {
+                .sidebar-title-col {
+                    height: 200px;
+                }
+                .sidebar-info-col {
+                    height: 200px;
+
+                    .sidebar-info-wrapper {
+                        margin-top: 120px;
+                    }
+                }
+                .sidebar-contact-col {
+                    height: 200px;
+
+                    .sidebar-contact-wrapper {
+                        margin-top: 300px;
+                        padding-bottom: 2rem;
+                        
+                        .btn-contact {
+                            margin-right: 1rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -192,7 +277,6 @@
         width: 200px;
         height: 500px;
         position: relative;
-        /* overflow: auto; */
     }
 }
 
