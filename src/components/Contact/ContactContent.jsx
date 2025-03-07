@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../Contact/ContactContent.css'
-// import Nav from '../Nav/Nav'
+import Nav from '../Nav/Nav'
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
@@ -36,7 +36,7 @@ const ContactContent = () => {
 
     return (
         <div>
-            {/* <Nav /> */}
+            <Nav />
             <section className="form-section-wrapper">
                 <form onSubmit={handleSubmit} className="form-container">
                     <h2>Contact Me</h2>
@@ -69,6 +69,7 @@ const ContactContent = () => {
                             onChange={(value) => handleChange({ target: { name: "phone", value } })}
                             placeholder='phone number'
                             className="form-phone-input"
+                            dropdownClass="custom-dropdown"
                         />
                     </div>
                     <div className="form-group">
