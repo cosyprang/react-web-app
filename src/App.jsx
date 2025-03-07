@@ -3,14 +3,15 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Nav from './components/Nav/Nav'
 import SiteMenu from './components/SiteMenu/SiteMenu'
+import About from './components/About/AboutContent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Home />
-      {/* <About /> */}
+      {/* <Home /> */}
+      <About />
       {/* <Portfolio /> */}
       {/* <Contact /> */}
       {/* <Nav /> */}

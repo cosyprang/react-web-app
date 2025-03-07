@@ -14,6 +14,8 @@
     width: 500px;
     height: 800px;
     position: relative;
+    /* overflow: auto; */
+    overflow: hidden;
     /* margin: auto; */
     margin: 0 auto;
     display: flex;
@@ -36,7 +38,7 @@
                 .sidebar-title-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 0.5rem 0 100px 3rem;
+                    padding: 0.5rem 0 45px 3rem;
 
                     h1 {
                         font-family: "Open Sans", sans-serif;
@@ -71,11 +73,11 @@
                 .sidebar-info-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 0 2rem 10px 3rem;
+                    padding: 0 2rem 0 3rem;
 
                     h2 {
                         font-size: clamp(20px, 2.5vw, 25px);
-                        padding-bottom: 2rem;
+                        padding-bottom: 1.5rem;
                         font-weight: lighter;
                     }
 
@@ -98,7 +100,7 @@
                 .sidebar-contact-wrapper {
                     display: flex;
                     flex-direction: column;
-                    padding: 50px 0 0 3rem;
+                    padding: 15px 0 0 3rem;
 
                     .tel-contact {
                         padding-top: 1rem;
@@ -109,12 +111,12 @@
                         color: var(--lighter-text);
                         font-family: "Open Sans", sans-serif;
                         font-weight: lighter;
-                        font-size: clamp(20px, 1.5vw, 25px);
+                        font-size: clamp(16px, 1.5vw, 18px);
                     }
 
 
                     a {
-                        margin-top: 2rem;
+                        margin-top: 1.5rem;
                         color: var(--black-text);
                         padding: 1rem 2rem 1rem 2rem;
                         background-color: transparent;
@@ -138,25 +140,37 @@
 
 @media screen and (max-width: 1366px) {
     .sidebar-section {
-        width: 400;
-        height: 100%;
-        margin: auto 0;
+        width: 800px;
+        height: 100vh;
+        /* margin: auto 0; */
+        margin: 0 auto;
 
         .sidebar-container {
-            width: 400px;
-            height: 700px;
+            width: 100%;
+            height: 100%;
+
+            .sidebar-wrapper {
+                display: flex;
+                flex-direction: column;
+                padding-left: 2rem;
+            }
     
             .sidebar-title-col {
                 width: 400px;
-                height: 150px;
+                height: 300px;
             }
+
             .sidebar-info-col {
                 width: 400px;
                 height: 300px;
+
             }
             .sidebar-contact-col {
                 width: 400px;
-                height: 50px;
+                height: 300px;
+                .sidebar-contact-wrapper {
+                    padding-top: 2rem;
+                }
             }
         }
     }
