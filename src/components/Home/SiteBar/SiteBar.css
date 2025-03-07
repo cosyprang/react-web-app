@@ -11,7 +11,7 @@
 }
 
 .sidebar-section {
-    width: 500px;
+    width: 600px;
     height: 800px;
     position: relative;
     /* overflow: auto; */
@@ -28,6 +28,7 @@
         grid-template-rows: repeat(3, 250px);
 
         .sidebar-wrapper {
+            padding-left: 2rem;
 
             .sidebar-title-col {
                 display: flex;
