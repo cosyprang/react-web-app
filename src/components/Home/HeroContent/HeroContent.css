@@ -16,7 +16,6 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    margin-left: auto;
     overflow: hidden;
 
     .hs-container {
@@ -45,37 +44,42 @@
                 font-size: clamp(10px, 4vw, 16px);
             }
 
-            .hs-col1-wrapper {
-                display: flex;
-                flex-direction: column;
+            .hs-col1-container {
+                max-width: 400px;
+                max-height: 1100px;
 
                 .hs-img-1 {
-                    width: 300px;
-                    height: 600px;
+                    width: 400px;
+                    height: 700px;
 
                     img {
                         width: 100%;
                         height: 100%;
                     }
                 }
-
                 .hs-info-1 {
                     padding: 1rem 0 1rem 0.5rem;
 
                 }
             }
+        }
+
+        .hs-col2-container {
+            max-width: 400px;
+            max-height: 1100px;
 
             .hs-col2-wrapper {
                 display: flex;
                 flex-direction: column;
 
                 .hs-img-2 {
-                    width: 300px;
-                    height: 600px;
+                    width: 400px;
+                    height: 700px;
 
                     img {
                         width: 100%;
                         height: 100%;
+                        object-fit: cover;
                     }
                 }
 
@@ -83,18 +87,24 @@
                     padding: 1rem 0 1rem 0.5rem;
                 }
             }
+        }
+
+        .hs-col3-container {
+            max-width: 400px;
+            max-height: 1100px;
 
             .hs-col3-wrapper {
                 display: flex;
                 flex-direction: column;
 
                 .hs-img-3 {
-                    width: 300px;
-                    height: 600px;
+                    width: 400px;
+                    height: 700px;
 
                     img {
                         width: 100%;
                         height: 100%;
+                        object-fit: cover;
                     }
                 }
 
@@ -105,7 +115,66 @@
         }
 
     }
+
 }
+
+/* @media screen and (min-width: 1920px) {
+    .home-hero-section {
+        max-width: 1300px;
+        max-height: 1000px;
+        position: relative;
+        display: flex;
+        justify-content: end;
+
+        .hs-col1-container {
+            width: 400px;
+            height: 1000px;
+
+            .hs-img-1 {
+                width: 400px;
+                height: 800px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .hs-col2-container {
+            width: 400px;
+            height: 1000px;
+
+            .hs-img-2 {
+                width: 400px;
+                height: 800px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .hs-col3-container {
+            width: 400px;
+            height: 1000px;
+
+            .hs-img-3 {
+                width: 400px;
+                height: 800px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+    }
+} */
 
 @media screen and (max-width: 1440px) {
     .home-hero-section {
@@ -123,7 +192,7 @@
             .hs-content-wrapper {
                 display: flex;
                 margin-top: 0;
-                
+
                 .hs-col1-wrapper {
 
                     .hs-img-1 {
@@ -136,8 +205,9 @@
                         }
                     }
                 }
+
                 .hs-col2-wrapper {
-                    
+
                     .hs-img-2 {
                         width: 266.66px;
                         height: 600px;
@@ -148,6 +218,7 @@
                         }
                     }
                 }
+
                 .hs-col3-wrapper {
 
                     .hs-img-3 {
@@ -178,6 +249,7 @@
         .hs-container {
             width: 700px;
             height: 100%;
+
             .hs-content-wrapper {
                 display: flex;
                 justify-content: center;
@@ -237,7 +309,7 @@
         margin: 0 auto;
         align-items: center;
         justify-content: center;
-        
+
         .hs-container {
             width: 700px;
             height: 100%;
@@ -250,87 +322,31 @@
 
                         width: 233.33px;
                         height: 500px;
-    
-                        img { 
+
+                        img {
                             width: 100%;
                             height: 100%;
                         }
                     }
                 }
-                
+
                 .hs-col2-wrapper {
 
                     .hs-img-2 {
                         width: 233.33px;
                         height: 500px;
-    
+
                         img {
                             width: 100%;
                             height: 100%;
                         }
                     }
                 }
-                
+
                 .hs-col3-wrapper {
 
                     .hs-img-3 {
                         width: 233.33px;
-                        height: 500px;
-    
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .home-hero-section {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        display: flex;
-        justify-content: end;
-
-        .hs-container {
-            width: 600px;
-            height: 100%;
-
-            .hs-content-wrapper {
-                padding-right: 100px;
-
-                .hs-col1-wrapper {
-
-                    .hs-img-1 {
-                        width: 200px;
-                        height: 500px;
-
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-                }
-                .hs-col2-wrapper {
-
-                    .hs-img-2 {
-                        width: 200px;
-                        height: 500px;
-
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-                }
-                .hs-col3-wrapper {
-
-                    .hs-img-3 {
-                        width: 200px;
                         height: 500px;
 
                         img {
