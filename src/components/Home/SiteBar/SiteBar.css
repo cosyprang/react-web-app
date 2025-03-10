@@ -145,7 +145,7 @@
         .sidebar-container {
             width: 100%;
             height: 100%;
-            
+
             .sidebar-wrapper {
                 display: flex;
                 flex-direction: column;
@@ -153,6 +153,7 @@
                 .sidebar-title-wrapper {
                     margin-bottom: 1rem;
                 }
+
                 .sidebar-info-wrapper {
                     margin-bottom: 1rem;
                 }
@@ -181,6 +182,7 @@
                         margin-bottom: 2rem;
                     }
                 }
+
                 .sidebar-info-col {
                     height: 200px;
 
@@ -188,6 +190,7 @@
                         margin-bottom: 2rem;
                     }
                 }
+
                 .sidebar-contact-col {
                     height: 200px;
 
@@ -196,10 +199,10 @@
                     }
                 }
             }
-    
+
         }
     }
-    
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -217,6 +220,7 @@
                 .sidebar-title-col {
                     height: 180px;
                 }
+
                 .sidebar-info-col {
                     height: 180px;
 
@@ -224,6 +228,7 @@
                         margin-top: 1.5rem;
                     }
                 }
+
                 .sidebar-contact-col {
                     height: 180px;
 
@@ -241,13 +246,16 @@
         width: 600px;
         height: 700px;
         overflow: auto;
+
         .sidebar-container {
             width: 100%;
             height: 100%;
+
             .sidebar-wrapper {
                 .sidebar-title-col {
                     height: 200px;
                 }
+
                 .sidebar-info-col {
                     height: 200px;
 
@@ -255,13 +263,14 @@
                         margin-top: 120px;
                     }
                 }
+
                 .sidebar-contact-col {
                     height: 200px;
 
                     .sidebar-contact-wrapper {
                         margin-top: 300px;
                         padding-bottom: 2rem;
-                        
+
                         .btn-contact {
                             margin-right: 1rem;
                         }
@@ -273,11 +282,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .sidebar-section {
-        width: 200px;
-        height: 500px;
-        position: relative;
-    }
+
 }
 
 @media screen and (max-width: 480px) {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../SiteMenu/SiteMenu.css'
 
 function SiteMenu({ closeMenu }) {
@@ -11,19 +12,16 @@ function SiteMenu({ closeMenu }) {
                             {/* Main menu */}
                             <ul className="site-menu">
                                 <li>
-                                    <a href="#" className='active'>Home</a>
+                                    <a><Link to="/">Home</Link></a>
                                 </li>
                                 <li>
-                                    <a href="#" className='active'>About Me</a>
+                                    <a><Link to="/about">About</Link></a>
                                 </li>
                                 <li>
-                                    <a href="#" className='active'>Blog</a>
+                                    <a><Link to="/portfolio">Portfolio</Link></a>
                                 </li>
                                 <li>
-                                    <a href="#" className='active'>Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#" className='active'>Contact</a>
+                                    <a><Link to="/contact">Contact</Link></a>
                                 </li>
                             </ul>
                             <div className="social-menu">
