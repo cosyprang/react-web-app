@@ -9,9 +9,14 @@
     height: 100vh;
     overflow: hidden;
     position: fixed;
+    /* transition: margin-left 0.3s ease; */
     
     .home-content-wrapper {
         display: flex;
         flex-direction: row;
     }
 }
+/* 
+.home-content.shifted {
+    margin-left: 250px;
+} */
