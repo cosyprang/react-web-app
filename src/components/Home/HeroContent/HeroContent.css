@@ -45,12 +45,12 @@
             }
 
             .hs-col1-container {
-                max-width: 400px;
+                max-width: 330px;
                 max-height: 1100px;
 
                 .hs-img-1 {
-                    width: 400px;
-                    height: 700px;
+                    width: 330px;
+                    height: 600px;
 
                     img {
                         width: 100%;
@@ -65,7 +65,7 @@
         }
 
         .hs-col2-container {
-            max-width: 400px;
+            max-width: 330px;
             max-height: 1100px;
 
             .hs-col2-wrapper {
@@ -73,8 +73,8 @@
                 flex-direction: column;
 
                 .hs-img-2 {
-                    width: 400px;
-                    height: 700px;
+                    width: 330px;
+                    height: 600px;
 
                     img {
                         width: 100%;
@@ -90,7 +90,7 @@
         }
 
         .hs-col3-container {
-            max-width: 400px;
+            max-width: 330px;
             max-height: 1100px;
 
             .hs-col3-wrapper {
@@ -98,8 +98,8 @@
                 flex-direction: column;
 
                 .hs-img-3 {
-                    width: 400px;
-                    height: 700px;
+                    width: 330px;
+                    height: 600px;
 
                     img {
                         width: 100%;
@@ -197,7 +197,7 @@
 
                     .hs-img-1 {
                         width: 266.66px;
-                        height: 600px;
+                        height: 550px;
 
                         img {
                             width: 100%;
@@ -210,7 +210,7 @@
 
                     .hs-img-2 {
                         width: 266.66px;
-                        height: 600px;
+                        height: 550px;
 
                         img {
                             width: 100%;
@@ -223,7 +223,7 @@
 
                     .hs-img-3 {
                         width: 266.66px;
-                        height: 600px;
+                        height: 550px;
 
                         img {
                             width: 100%;
@@ -259,7 +259,7 @@
 
                     .hs-img-1 {
                         width: 266.66px;
-                        height: 500px;
+                        height: 550px;
 
                         img {
                             width: 100%;
@@ -273,7 +273,7 @@
                     .hs-img-2 {
 
                         width: 266.66px;
-                        height: 500px;
+                        height: 550px;
 
                         img {
                             width: 100%;
@@ -287,7 +287,7 @@
                     .hs-img-3 {
 
                         width: 266.66px;
-                        height: 500px;
+                        height: 550px;
 
                         img {
                             width: 100%;

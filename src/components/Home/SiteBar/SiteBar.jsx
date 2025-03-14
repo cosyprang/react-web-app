@@ -26,7 +26,7 @@ function SiteBar() {
                         <div className="sidebar-contact-wrapper">
                             <p className="tel-contact">+66 92 421 8855</p>
                             <p className="mail-contact">cosyprang@gmail.com</p>
-                            <a href="#" className="btn-contact">See my Portfolio</a>
+                            <a href="/portfolio" className="btn-contact">See my Portfolio</a>
                         </div>
                     </div>
                 </div>

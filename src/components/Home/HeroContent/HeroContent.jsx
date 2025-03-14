@@ -13,7 +13,7 @@ function HeroContent() {
                                     <img src="https://images.unsplash.com/photo-1531346644014-cde582069e71?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img-home-1" />
                                 </div>
                                 <div className="hs-info-1">
-                                    <h4><a href="#">Transcript</a></h4>
+                                    <h4><a href="/portfolio">Transcript</a></h4>
                                     <p>Silpakorn Univeristy</p>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@ function HeroContent() {
                                     <img src="https://images.unsplash.com/photo-1596448056997-aba1db5a565a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img-home-2" />
                                 </div>
                                 <div className="hs-info-2">
-                                    <h4><a href="#">About Me</a></h4>
+                                    <h4><a href="/about">About Me</a></h4>
                                     <p>Silpakorn Univeristy</p>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ function HeroContent() {
                                     <img src="https://images.unsplash.com/photo-1610216595084-8b75df5e994f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img-home-3" />
                                 </div>
                                 <div className="hs-info-3">
-                                    <h4><a href="#">Contact</a></h4>
+                                    <h4><a href="/contact">Contact</a></h4>
                                     <p>Silpakorn Univeristy</p>
                                 </div>
                             </div>
